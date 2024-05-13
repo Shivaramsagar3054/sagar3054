@@ -20,7 +20,7 @@ int main(){
 	}
 	}
 	if(f){
-		printf("Elememt is found in pos %d",index);
+		printf("Elememt is found in postion %d",index);
 	}
 	else
 	printf("Element is not found");
