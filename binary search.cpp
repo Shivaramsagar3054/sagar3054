@@ -14,7 +14,7 @@ int main(){
 	int f=0;
 	int low=0,high=n-1;
 	int pos;
-	while(1){
+	while(low<=high){
 		int mid=(low+high)/2;
 		if(arr[mid]==search){
 			f=1;
@@ -28,7 +28,7 @@ int main(){
 		}
 	}
 	if(f==1){
-		printf(" \nelement is found in array in postion %d\n",pos);
+		printf(" \nElement is found in array index postion %d\n",pos);
 	}
 	else{
 		printf("Element is not found in array");
