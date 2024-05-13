@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
 	int n,f=0,index;
-	printf("Entere the size of the array : ");
+	printf("Enter the size of the array : ");
 	scanf("%d",&n);
 	int arr[n];
-	printf("Entere the size of the array : ");
+	printf("Enter the array Elemeents : ");
 	for(int i=0;i<n;i++){
 	scanf("%d",&arr[i]);
 	}
 	int search;
-	printf("Enter tyhe serach element: ");
+	printf("Enter the serach element: ");
 	scanf("%d",&search);
 	for(int i=0;i<n;i++){
 	if(arr[i]==search)
